@@ -113,7 +113,7 @@ export default function App() {
               <View style={styles.responseContainer}>
                 {isSuccess && (
                   <Image 
-                    source={require('./assets/check.png')} // Certifique-se de colocar um check.png na pasta assets
+                    source={require('./assets/check.png')}
                     style={styles.checkIcon} 
                   />
                 )}
